@@ -1,3 +1,5 @@
+// connect Mongo to db node.js
+
 const mongoose = require("mongoose");
 
 mongoose.connect(process.env.MONGO_URL);
